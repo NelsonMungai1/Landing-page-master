@@ -1,0 +1,131 @@
+:root{
+    --strong-cyan:hsl(171,66%,44%);
+    --light-blue:hsl(233,100%,69%);
+    --darkGrayishBlue:hsl(210,10%,33%);
+    --GrayishBlue:hsl(201,11%,66%);
+}
+.wrapper{
+    width:100%;
+    /* text-align: center; */
+    border: 1px solid red;
+}
+html{
+    font-family:"Quicksand",sans-serif;
+}
+.download{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.download img{
+    width:10%;
+    font-size: 18px;
+}
+li{
+    padding:0;
+    margin:0;
+    list-style-type: none;
+}
+a{
+    text-decoration:none;
+}
+.btn{
+    font-size:13px;
+    padding:10px 20px;
+    color:#fff;
+    background: rgb(19, 71, 19);
+    border-radius:25px;
+}
+.ios{
+    background: var(--strong-cyan);
+}
+.Mac{
+    background:var(--light-blue);
+}
+p{
+    color:var(--GrayishBlue);
+}
+h2,h3,h4{
+    color:var(--darkGrayishBlue);
+}
+.intro{
+    flex-direction: column;
+    text-align: center;
+}
+.track .intro{
+    margin-bottom: 70px;
+}
+.track .content{
+    display:flex;
+    justify-content:space-around;
+}
+.track .content img{
+    width: 50%;
+}
+.track{
+    margin-bottom: 70px;
+}
+.universal{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.features{
+    display: flex;
+    justify-content:space-around;
+    gap:5px;
+}
+.cols{
+    text-align: center;
+}
+.companies{
+    margin:100px;
+}
+.companies img{
+    width:10%;
+}
+.footer-logo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo img{
+    width:50px;
+    height:50px;
+    left:50%;
+}
+.cpy{
+    background:lightgrey;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.ctn{
+    display: flex;
+}
+.footer .ctn ul li a{
+    transition: .5s ease-in-out;
+    background: lightgray;
+    color: var(--darkGrayishBlue);
+}
+.footer .ctn ul li a:hover{
+    color: var(--strong-cyan);
+}
+.footer .ctn ul{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:12px;
+}
+.icons{
+     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:32px;
+}
+.icons img{
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+.icons img:hover{
+    color: var(--strong-cyan);
+}
